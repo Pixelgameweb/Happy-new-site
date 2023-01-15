@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+body,
+head{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>li{
+    list-style: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.margin{
+    min-height: 100%;
+    position: relative;
+}
+
+.header{
+    padding: 30px 8px;
+    position: fixed;
+    width: 100%;
+}
+.nav__list{
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px ;
+}
+.nav__link{
+    color: #cc9630;
+}
+
+.nav__link:hover{
+    color: #c28b24;
+}
+
+.section{
+    height: 100vh;
+}
+
+.main{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/1664619906_v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}       
+
+.title{
+    font-size: 50px;
+    background-image: url(img/1642763472_1-phonoteka-org-p-fon-zolotoi-gradient-1.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text ;
+    color: transparent;
+}
+
+.title__top{
+    font-family: 'Great Vibes', cursive;
+}
+
+.title__bottom{
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.main__desc{
+    max-width: 500px;
+    font-size: 18px;
+}
+
+.main__link{
+    background-color: #cc9630;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 165px;
+    padding: 10px;
+}
+
+.main__link:hover{
+    color: #c28b24;
+}
+.desc{
+    display: flex;
+}
+.section__col{
+    width: 50%;
+}
+.subtitle{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #cc9630;
+}
+
+.desc__img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.desc__info{
+    padding: 50px;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content:center ;
+    background: url(img/artage-io-thumb-74c5ba577e8e163d232a745208400deb.png ) no-repeat top right / 200px, url(img/pngwing.com.png) no-repeat center bottom / 200px;
+}
+
+.poem{
+    background-image:url(img/1626863655_2-p-krasnii-fon-ng-2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poem__text{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    padding:50px;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-weight: bold;
+    background-color: darkgreen;
+    font-size: 20px;
+    padding: 25px;
+    align-items: center;
+}
+
+
+
+
+
